@@ -1,0 +1,25 @@
+body {
+     background-color:whitesmoke;
+}
+div {
+    width:300px;
+    margin:auto;
+}
+div.mycontainer {
+    width: 100%;
+    overflow: auto;
+}
+div.mycontainer div {
+    width: 33%;
+    float: left;
+}
+.mycontainer {
+    display: block;
+}
+.mycontainer div {
+    width: 33%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 33%;
+}
